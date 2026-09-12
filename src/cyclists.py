@@ -7,7 +7,8 @@ def cyclists():
 
 
 def main():
-    cyclists()
-    
+    df = cyclists()
+    print(df)
+
 if __name__ == "__main__":
     main()
